@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Inicio"
+            />
+        <item android:id="@+id/contact"
+            android:icon="@drawable/baseline_whatsapp_24"
+            android:title="Contato"
+            />
+    </group>
+    <item android:title="Controle Financeiro">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/financeiro"
+                    android:icon="@drawable/baseline_playlist_add_24"
+                    android:title="Add conta"
+                    />
+                <item android:id="@+id/resumo"
+                    android:icon="@drawable/baseline_calendar_month_24"
+                    android:title="Resumos"
+                    />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Perfil">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/about"
+                    android:icon="@drawable/baseline_account_circle_24"
+                    android:title="Cadastro"
+                    />
+                <item android:id="@+id/login"
+                    android:icon="@drawable/baseline_login_24"
+                    android:title="Log In"
+                    />
+            </group>
+        </menu>
+    </item>
+<!--    <item android:title="Comunication">-->
+<!--        <menu>-->
+<!--            <group android:checkableBehavior="single">-->
+<!--                <item android:id="@+id/share"-->
+<!--                    android:icon="@drawable/baseline_share_24"-->
+<!--                    android:title="Share"-->
+<!--                    />-->
+<!--                <item android:id="@+id/rateus"-->
+<!--                    android:icon="@drawable/baseline_sentiment_satisfied_alt_24"-->
+<!--                    android:title="Rate Us"-->
+<!--                    />-->
+<!--            </group>-->
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>
