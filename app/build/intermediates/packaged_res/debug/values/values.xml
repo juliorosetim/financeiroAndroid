@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="buttonPurple">#611a5f</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Financeiro</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="open">Open Navigation Drawer</string>
+    <style name="Base.Theme.Financeiro" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Financeiro" parent="Base.Theme.Financeiro"/>
+</resources>
